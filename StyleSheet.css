@@ -1,0 +1,198 @@
+﻿html, body
+{
+	height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+	
+}
+
+.mainContent
+{
+    flex: 1 0 auto;
+}
+
+.navbar-expand-lg .navbar-nav{
+    font-size: 16px;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 20px !important;
+    font-family: monospace;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.nav-item .active {
+    background-color: #a1a3a5;
+}
+
+.shopcarticon {
+	font-size: 30px;
+	color:white;	
+}
+
+.navlabel {
+	border-radius: 12px;
+    position: absolute;
+    top: 1px;
+    background-color: red;
+    color: white;
+    padding: 0px 7px;
+    font-size: 20px;
+    margin-left: -10px;
+}  
+
+.banner-image
+{
+	background-image: url(../images/Shopping_banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	background-position: center;
+    width: 100%;
+    display:table;
+}
+
+.btn_cart {
+    width: 80%;
+    background-color: maroon;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.btn_cart1 {
+    width: 30%;
+    background-color: maroon;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.btn_buynow {
+    width: 30%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.head {
+     font-size:18px;
+     display:block;
+     margin-bottom:10px;
+}
+
+.price {
+  font-size:23px;
+  margin-bottom:20px;
+  font-weight:700;
+}
+
+
+.marg {
+    margin-top:2%;
+}
+
+
+ .inputBox{
+	position: relative;
+	box-sizing: border-box;
+	margin-bottom: 35px;
+}
+.inputBox .inputText{
+	position: absolute;
+    font-size: 18px;
+    line-height: 50px;
+    transition: .5s;
+    opacity: .5;
+}
+.inputBox .input{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+.inputBox .textarea{
+	position: relative;
+	width: 100%;
+	background: transparent;
+	border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+.focus .inputText{
+	transform: translateY(-30px);
+	font-size: 16px;
+	opacity: 1;
+	color: #00bcd4;
+}
+
+   .item {
+    height: 10rem;
+    background-color: #d8dedca8;
+    padding: 1rem;
+    }
+
+    .item_selected{
+        height: 10rem;
+        background-color: #6cff2fad;
+        padding: 1rem;
+    }
+
+   .carousel-control-next, .carousel-control-prev{
+       width: 10%!important;
+   }
+
+#UsersTableArea{
+    max-height: 900px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.UsersTable{
+    white-space: normal;
+}
+
+#CatgTableArea{
+    max-height: 900px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.CatgTable{
+    white-space: normal;
+}
+
+  .number::-webkit-inner-spin-button, 
+  .number::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; 
+  }
+
+.footer {
+    background-color: black;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.footerp {
+    color: white;
+    font-size: 15px;
+
+}
